@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant_Mausam</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="assets/mausam.png" alt="mausam" class="center">
+            <div class="search-box">
+                
+                <input type="text" placeholder="Enter your location" class="input-box">
+
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+            </div>
+        </div>
+
+        <div class="location-not-found">
+            <h1>Sorry, Location not found !!</h1>
+            <img src="assets/404.svg" alt="404 Error">
+        </div>
+
+        <div class="weather-body">
+            <img src="assets/cloud.svg" alt="Weather Image" class="weather-img">
+
+            <div class="weather-box">
+                <p class="temperature">0 <sup>°C</sup></p>
+                <p class="description"></p>
+                <i class='fas fa-map-marker-alt'></i>
+                <p class="loc"></p>
+            </div>
+            
+            
+            <div class="weather-details">
+
+                <div class="feels_like">
+                    
+                    <div class="text">
+                        <i class='fa fa-thermometer'></i>
+                        <span id="feels_like"></span>
+                        <p>Feels like</p>
+                    </div>
+                </div>
+
+                <div class="humidity">
+                   
+                    <div class="text">
+                        <i class="fa-sharp fa-solid fa-droplet"></i>
+                        <span id="humidity"></span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="pressure">
+                    
+                    <div class="text">
+                        <i class='fa fa-hourglass-o'></i>
+                        <span id="pressure"></span>
+                        <p>Pressure</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    
+                    <div class="text">
+                        <i class="fa-solid fa-wind"></i>
+                        <span id="wind-speed"></span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/script.js"></script>
+    <script src="https://kit.fontawesome.com/595a890311.js" crossorigin="anonymous"></script>
+</body>
+</html>
