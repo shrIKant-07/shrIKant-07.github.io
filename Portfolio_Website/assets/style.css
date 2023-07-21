@@ -366,7 +366,7 @@ a {
 	align-items: center;
 	justify-content: center;
 	
-	width: 375px;
+	width: 370px;
 	height: 700px;
 	border-radius: 10px;
 	
@@ -380,7 +380,7 @@ a {
 }
 
 .subscribe__copy {
-	max-width: 375px;
+	max-width: 370px;
 	text-align: center;
 	margin-bottom: 53px;
 	line-height: 1.5;
@@ -394,7 +394,7 @@ a {
 	padding: 20px 25px;
 	border-radius: 5px;
  	border: 1px solid #CAD3DB;
-	width: 370px;
+	width: 365px;
 	font-size: 18px;
 	color: #0F121F;
 }
