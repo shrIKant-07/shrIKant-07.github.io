@@ -450,7 +450,7 @@ a {
   }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 476px) {
   .home {
     padding: 4rem 0 2rem;
   }
