@@ -380,7 +380,7 @@ a {
 }
 
 .subscribe__copy {
-	max-width: 450px;
+	max-width: 395px;
 	text-align: center;
 	margin-bottom: 53px;
 	line-height: 1.5;
@@ -394,7 +394,7 @@ a {
 	padding: 20px 25px;
 	border-radius: 5px;
  	border: 1px solid #CAD3DB;
-	width: 400px;
+	width: 380px;
 	font-size: 18px;
 	color: #0F121F;
 }
@@ -408,7 +408,7 @@ a {
   align-self: center;
 	padding: 10px;
 	border: none;
-	width: 244px;
+	width: 210px;
 	height: 65px;
 	border-radius: 5px;
 	font-size: 18px;
